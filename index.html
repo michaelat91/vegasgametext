@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino For Real - A Neon-Noir Adventure</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/6.5.10/browser/pixi.min.js"></script>
+</head>
+<body>
+    <canvas id="visual-scene"></canvas>
+    <div class="game-container">
+        <header>
+            <h1>Casino For Real</h1>
+        </header>
+
+        <main class="main-content">
+            <section id="narrative-log">
+                <!-- Game text will be dynamically added here -->
+            </section>
+
+            <aside id="status-panel">
+                <h2>STATUS</h2>
+                <div class="status-section">
+                    <h3>INVENTORY</h3>
+                    <p>Empty</p>
+                </div>
+                <div class="status-section">
+                    <h3>FAMILY</h3>
+                    <p>Status Unknown</p>
+                </div>
+                <div class="status-section">
+                    <h3>LORE</h3>
+                    <p>No entries yet.</p>
+                </div>
+            </aside>
+        </main>
+
+        <footer class="input-area">
+            <input type="text" id="command-input" placeholder="> Type your command...">
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="visualManager.js"></script>
+</body>
+</html>
